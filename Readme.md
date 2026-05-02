@@ -20,7 +20,7 @@ The objective was to create a structured form to collect safety-related data fro
   - **Textarea:** For detailed safety suggestions.
 
 ## Live Demo
-You can view the project here:[Clik here to see the project running](https://josuevasquez2305.github.io/Proyectos-de-certificacion-FCC/)
+You can view the project here:[Clik here to see the project running](https://josuevasquez2305.github.io/Certification-Project-Survey-Form/)
 
 ## Author
 - Current Project: HTML Syntax & Semantics Study.
