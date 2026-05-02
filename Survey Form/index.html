@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Aircraft Maintenance Safety Survey</h1>
+    <p id="description">Please provide feedback on hangar safety protocols and equipment status.</p>
+    <form id="survey-form">
+    <label id="name-label">
+      Name:
+      <input type="text" id="name" placeholder="Full Name" required>
+      </label>
+      <label id="email-label">
+        Email
+      <input type="email" id="email" required placeholder="Work Email">
+      </label>
+      <label id="number-label">
+        Years of Experience
+      <input type="number" id="number" min="1" max="50" placeholder="Years">
+      </label>
+
+      <select id="dropdown" required>
+        <option disabled selected value="">Select your role</option>
+        <option value="interior-tech">Interior Technician</option>
+        <option value="avionic-tech">Avionic Technician</option>
+        <option value="estructure-tech">Estructure Technician</option>
+        <option value="qc">Quality Control</option>
+        <option value="supervisor">Supervisor</option>   
+      </select>
+
+      <p>Current Shift:</p>
+       <label>
+       <input type="radio" name="shift" value="b">B
+       </label>
+       <label>
+       <input type="radio" name="shift" value="c">C
+       </label>
+       <label>
+       <input type="radio" name="shift" value="b-c">B/C
+       </label>
+
+      <p>Mandatory Personal Protection Equipment you currently use:</p>
+       <label>
+       <input type="checkbox" name="ppe" value="safety-glasses">Safety Glasses
+       </label>
+       <label>
+       <input type="checkbox" name="ppe" value="safety-shoes">Safety Shoes
+       </label>
+       <label>
+       <input type="checkbox" name="ppe" value="ear-protec">Ear Protection
+       </label>
+       <label>
+       <input type="checkbox" name="ppe" value="bump-cap">Bump Cap
+       </label>
+       
+     <p>Additional safety recomendations:</p>
+       <textarea id="comments" placeholder="Please enter any safety observation here"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
